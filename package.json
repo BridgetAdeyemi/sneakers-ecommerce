@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "build-css": "npx @tailwindcss/cli -i ./public/input.css -o ./public/output.css --watch",
     "build-ts": "tsc --watch",
     "dev": "npm run build-css & npm run build-ts",
-    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css && tsc",
+    "build": "npx @tailwindcss/cli -i ./public/input.css -o ./public/output.css && tsc",
     "start": "npm run build && node dist/index.js"
   },
   "keywords": [],
