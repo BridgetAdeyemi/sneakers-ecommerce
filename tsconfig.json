@@ -2,7 +2,7 @@
   "compilerOptions": {
     /* File Paths */
     "rootDir": "./src", // Where TS source files live
-    "outDir": "./dist", // Where compiled JS goes
+    "outDir": "./public", // Where compiled JS goes
 
     /* Target environment */
     "target": "ES2020", // Modern JS output
