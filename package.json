@@ -7,7 +7,7 @@
     "build-ts": "tsc --watch",
     "dev": "npm run build-css & npm run build-ts",
     "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css && tsc",
-    "start": "npm run build && node dist/main.js"
+    "start": "npm run build && node dist/index.js"
   },
   "keywords": [],
   "author": "",
